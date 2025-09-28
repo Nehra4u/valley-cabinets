@@ -337,14 +337,14 @@ export default function Home() {
                 Save time by having us install the cabinets or save money by installing them yourself.
               </p>
               <button className="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300">
-                LEARN WHAT'S BEST FOR YOU
+                LEARN WHAT&apos;S BEST FOR YOU
               </button>
             </div>
 
             {/* Wood vs MDF */}
             <div className="group">
               <div className="relative overflow-hidden rounded-2xl shadow-xl group-hover:shadow-2xl transition-all duration-300 mb-8">
-                <Image
+            <Image
                   src="/images/lotus-design-n-print-iUjIiP0sMTs-unsplash.jpg"
                   alt="Dark gray cabinets with marble countertops"
                   width={600}
@@ -444,7 +444,7 @@ export default function Home() {
               Choose Your Style
             </h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              Select from our wide range of cabinet styles to match your home's aesthetic.
+              Select from our wide range of cabinet styles to match your home&apos;s aesthetic.
               Each style is crafted with attention to detail and premium materials.
             </p>
           </div>
@@ -479,10 +479,10 @@ export default function Home() {
                 description: 'Rustic charm with a modern twist.',
                 price: '$1250/linear ft'
               }
-            ].map((style, index) => (
+            ].map((style) => (
               <div key={style.id} className="cursor-pointer transition-all duration-300 group">
                 <div className="relative overflow-hidden rounded-2xl mb-6 shadow-xl hover:shadow-2xl transition-all duration-300">
-                  <Image
+          <Image
                     src={style.image}
                     alt={style.name}
                     width={300}
@@ -544,7 +544,7 @@ export default function Home() {
             ].map((video, index) => (
               <div key={index} className="bg-gray-900 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group">
                 <div className="relative">
-                  <Image
+          <Image
                     src={video.thumbnail}
                     alt={video.title}
                     width={400}
@@ -626,7 +626,7 @@ export default function Home() {
             ].map((item, index) => (
               <div key={index} className="group cursor-pointer">
                 <div className="relative overflow-hidden rounded-2xl mb-4 shadow-xl hover:shadow-2xl transition-all duration-300">
-                  <Image
+          <Image
                     src={item.src}
                     alt={item.alt}
                     width={400}
@@ -654,7 +654,7 @@ export default function Home() {
               What Our Customers Say
             </h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              Don't just take our word for it. Here's what our satisfied customers have to say about their Valley Cabinet experience.
+              Don&apos;t just take our word for it. Here&apos;s what our satisfied customers have to say about their Valley Cabinet experience.
             </p>
           </div>
 
@@ -686,7 +686,7 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  "{testimonial.text}"
+                  &ldquo;{testimonial.text}&rdquo;
                 </p>
                 <div>
                   <h4 className="text-white font-semibold">{testimonial.name}</h4>
